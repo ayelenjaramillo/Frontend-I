@@ -1,0 +1,41 @@
+                        header {
+                            font-family: 'Times New Roman';
+                            background-color: #E6E6E6;
+                        }
+                        
+                        body {
+                            font-family: 'Times New Roman';
+                            background-color: E5E5E5;
+                        }
+                        
+                        h1,
+                        h2 {
+                            background-color: #C4C4C4;
+                            color: #005677;
+                            font-family: 'Times New Roman';
+                        }
+                        
+                        footer {
+                            background-color: #005677;
+                            color: white;
+                            font-weight: bold;
+                            font-family: 'Times New Roman';
+                            ;
+                        }
+                        
+                        dt {
+                            font-weight: bold;
+                            font-family: 'Times New Roman';
+                        }
+                        
+                        #image {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        
+                        #imagefooter {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
