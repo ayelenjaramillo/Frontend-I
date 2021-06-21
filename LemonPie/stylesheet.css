@@ -1,0 +1,22 @@
+ section.banner {
+     background-image: url(lemonpie.jpg);
+     background-size: cover;
+     background-attachment: fixed;
+     height: 243px;
+     color: black;
+     padding: 3%;
+ }
+ 
+ body {
+     font-family: 'Playfair Display', serif;
+     font-size: large;
+ }
+ 
+ section.banner~section {
+     max-width: 80%;
+     margin: 5% auto
+ }
+ 
+ footer {
+     text-align: center;
+ }
