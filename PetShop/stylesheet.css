@@ -1,0 +1,28 @@
+header {
+    background: black;
+    color: white;
+}
+
+nav li {
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    margin-left: 75px;
+}
+
+#menu {
+    margin: 0 auto;
+    background: orange;
+    font-weight: bold;
+    color: black
+}
+
+nav ul li {
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    padding: 25px;
+    margin-left: 75px;
+}
+
+#banner {}
