@@ -1,28 +1,53 @@
-header {
-    background: black;
-    color: white;
-}
-
-nav li {
-    position: relative;
-    display: inline-block;
-    list-style: none;
-    margin-left: 75px;
-}
-
-#menu {
-    margin: 0 auto;
-    background: orange;
-    font-weight: bold;
-    color: black
-}
-
-nav ul li {
-    position: relative;
-    display: inline-block;
-    list-style: none;
-    padding: 25px;
-    margin-left: 75px;
-}
-
-#banner {}
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    
+    header {
+        display: flex-block;
+        background: black;
+        color: white;
+        width: 1025px;
+        text-align: center;
+    }
+    
+    nav li {
+        position: relative;
+        display: inline-block;
+        list-style: none;
+        margin-left: 75px;
+    }
+    
+    #menu {
+        margin: 0 auto;
+        background: orange;
+        font-weight: bold;
+        color: black;
+        display: flex;
+        justify-content: space-around;
+        height: 50px;
+    }
+    
+    nav ul li {
+        position: relative;
+        display: inline-flex;
+        list-style: none;
+        justify-content: space-between;
+    }
+    
+    #banner {
+        text-align: center;
+    }
+    
+    .juguetesventa {
+        display: flex;
+    }
+    
+    main {
+        width: 1025px;
+    }
+    
+    .parrafos {
+        display: inline-block;
+    }

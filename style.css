@@ -20,14 +20,17 @@
     }
     
     img {
-        width: 15%;
-        height: 15%;
+        width: 10%;
+        height: 10%;
         border-radius: 60%;
         text-align: center;
         display: block;
         margin: auto;
     }
-    
-    ul {
+    /* ul {
         type: none;
+    } */
+    
+    main {
+        height: 400px;
     }

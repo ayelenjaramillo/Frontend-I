@@ -1,0 +1,103 @@
+     * {
+         box-sizing: border-box;
+         padding: 0px;
+         margin: 0;
+     }
+     
+     h3 {
+         background-color: #1CD1B0;
+         width: 1024px;
+     }
+     
+     h1 {
+         background-color: #00669F;
+         height: 101px;
+         width: 1024px;
+         align-content: center;
+     }
+     
+     body {
+         padding: 0px 80px 0px 80px
+     }
+     
+     main {
+         display: flex;
+         background-color: #E5E5E5;
+         justify-content: space-around;
+         gap: 15px;
+         width: 1024px;
+         height: 700px;
+         padding: 40px 15px;
+         font-size: 16px;
+     }
+     
+     .container1,
+     .container2,
+     .container3 {
+         background-color: #F3F3F3;
+         width: 340px;
+         height: 620px;
+     }
+     
+     .container1 {
+         background-image: url(./img/batmanfondo.png);
+         background-position: top;
+         background-repeat: no-repeat;
+         background-size: 340px;
+         align-content: center;
+         border-radius: 16px;
+     }
+     
+     img {
+         /* position: relative; */
+         padding: 48px 45px 45px 90px;
+         border-radius: 80%;
+     }
+     
+     .corazon,
+     .corazon2,
+     .corazon3 {
+         border-radius: 0%;
+         padding: 30px;
+     }
+     
+     footer {
+         width: 1024px;
+         height: 60px;
+         text-align: center;
+         background-color: #00669F;
+         color: white;
+         /* font-size: 16px; */
+     }
+     
+     .container2 {
+         background-image: url(./img/chicafondo.png);
+         background-position: top;
+         background-repeat: no-repeat;
+         background-size: 340px;
+         align-content: center;
+         border-radius: 16px;
+     }
+     
+     .container3 {
+         background-image: url(./img/batmanfondo.png);
+         background-position: top;
+         background-repeat: no-repeat;
+         background-size: 340px;
+         align-content: center;
+         border-radius: 16px;
+     }
+     
+     button {
+         padding: 15px 17px;
+         background-color: #00669F;
+         align-items: center;
+         color: white;
+         text-align: center;
+         align-items: center;
+         margin-left: 110px;
+     }
+     
+     h2 {
+         text-align: center;
+     }

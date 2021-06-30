@@ -1,0 +1,103 @@
+* {
+    /* padding: 0;
+         margin: 10px; */
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    width: 75%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    /* padding: 2px;
+    margin: 5px; */
+    justify-content: space-between;
+    align-items: center;
+    /* width: 100vw; */
+    background-color: black;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    padding: 35px 19px;
+    background-color: #E5E5E5;
+    /* width: 1024px; */
+}
+
+.blanco {
+    color: white;
+}
+
+.menu li {
+    display: inline-block;
+    justify-content: flex-end;
+    margin: 15px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    color: white;
+    /* width: 1024px;
+    height: 150px; */
+}
+
+.primero,
+.segunda {
+    /* display: inline-flex; */
+    width: 500px;
+    height: 350px;
+    border-radius: 5%;
+    justify-content: space-around;
+}
+
+.primero {
+    background-image: url(./img/delivery.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.segunda {
+    /* display: flex; */
+    flex-direction: column;
+    background-image: url(./img/PizzaFalling.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+    color: red;
+}
+
+p {
+    text-align: left;
+    margin: 0;
+    padding: 0px 0px 0px 100px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ol {
+    text-align: left;
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.fotofooter,
+.fotoypizza {
+    padding: 0px 25px;
+}
