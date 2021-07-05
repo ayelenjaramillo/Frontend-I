@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0;
+}
+
+body {
+    max-width: 900px;
+    justify-content: center;
+    margin: auto;
+    /* padding: 20px; */
+    /* flex-wrap: wrap; */
+    /* min-width: 400px */
+}
+
+header {
+    padding: 0%;
+}
+
+h3 {
+    background-color: #D1891C
+}
+
+h1 {
+    background-color: #00669F
+}
+
+img {
+    height: 120px;
+    width: 120px;
+    /* position: relative; */
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    margin: 150px 0px 0px 100px;
+}
+
+.corazoncito {
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: auto;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #E5E5E5;
+}
+
+.container1,
+.container2,
+.container3,
+.container4 {
+    /* height: auto; */
+    color: black;
+    text-align: center;
+    width: 350px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: #F3F3F3;
+    margin: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 350px;
+}
+
+p {
+    height: 200px;
+    position: relative;
+}
+
+.container1 {
+    background-image: url(./img/batmanfondo.png);
+}
+
+.container2 {
+    background-image: url(./img/fondomujermarailla.png);
+}
+
+.container3 {
+    background-image: url(./img/fondosuperman.png);
+}
+
+.container4 {
+    background-image: url(./img/fondorubia.png);
+}
+
+footer,
+button {
+    text-align: center;
+    background-color: #00669F;
+    color: white;
+    border-radius: 7px;
+}
